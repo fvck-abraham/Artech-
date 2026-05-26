@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Artech | Electronica</title>
+
+    <link rel="stylesheet"
+    href="electronica.css">
+
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+    <link rel="icon"
+    type="image/png"
+    href="lambda.png">
+
+</head>
+
+<body>
+<canvas id="bgCanvas"></canvas>
+<!-- HEADER -->
+
+<header class="header">
+
+    <a href="index.html"
+    class="logo">
+
+        <img src="lambda 2.png"
+        alt="Logo">
+
+        <span>
+            Artech
+        </span>
+
+    </a>
+
+    <nav class="nav">
+
+        <a href="#computadoras ">
+            Computadoras 
+        </a>
+
+        <a href="#telefonos">
+            Telefonos
+        </a>
+
+        <a href="#tablets">
+            Tablets
+        </a>
+
+        <a href="#consolas">
+            Consolas
+        </a>
+
+           <a href="Cuenta.html"
+          class="account-btn">
+
+           <i class="fi fi-rr-user"></i>
+
+             </a>
+
+        <!-- CARRITO -->
+
+            <a
+            href="Carrito.html"
+            class="carrito">
+
+                <i class="fi fi-rr-cart-shopping-fast"></i>
+
+                <span
+                class="cart-count"
+                id="cartCount">
+
+                    0
+
+                </span>
+
+            </a>
+
+    </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero__content">
+
+        <p class="hero__mini">
+     Los mejores dispositivos
+        </p>
+
+        <h1>
+            Dispositivos premium.
+        </h1>
+
+        <p class="hero__text">
+
+        La mejor calidad de dispositivos para tu dia a dia.  
+            
+        
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- COMPUTADORAS -->
+
+<section class="section" id="computadoras ">
+
+    <h2>
+        Computadoras
+    </h2>
+    
+<div class="products">
+    <!-- MACBOOK AIR M3 -->
+<div class="product"
+onclick= "window.location.href='Mackbook.html'">      
+
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://www.notebookcheck.net/fileadmin/Notebooks/Apple/MacBook_Air_13_M3_10C_GPU/IMG_2758.JPG">
+
+    <div class="product__info">
+
+        <h3>MacBook Air M3</h3>
+
+        <p>13.6" • M3 • 256GB</p>
+
+        <span>Q8,999</span>
+
+        <div class="product__buttons">
+
+           <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+            'MacBook Air M3',
+            8999,
+            'https://www.notebookcheck.net/fileadmin/Notebooks/Apple/MacBook_Air_13_M3_10C_GPU/IMG_2758.JPG'
+            )">
+
+                Agregar al carrito
+
+            </button>
+
+           <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+            'MacBook Air M3',
+            8999,
+            'https://www.notebookcheck.net/fileadmin/Notebooks/Apple/MacBook_Air_13_M3_10C_GPU/IMG_2758.JPG'
+            )">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MCBOOK PRO 14 M5 -->
+
+<div class="product"
+onclick="window.location.href='SanDisk-Extreme.html'">
+
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://images.techeblog.com/wp-content/uploads/2025/10/15130928/macbook-pro-m5-announcement.jpg">
+
+    <div class="product__info">
+
+        <h3>MacBook Pro 14 M5</h3>
+
+        <p>Chip M5 • 14 pulgadas</p>
+
+        <span>Q31,000</span>
+
+        <div class="product__buttons">
+
+           <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+            'MacBook Pro 14 M5',
+            31000,
+            'https://images.techeblog.com/wp-content/uploads/2025/10/15130928/macbook-pro-m5-announcement.jpg'
+            )">
+
+                Agregar al carrito
+
+            </button>
+
+           <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+            'MacBook Pro 14 M5',
+            31000,
+            'https://images.techeblog.com/wp-content/uploads/2025/10/15130928/macbook-pro-m5-announcement.jpg'
+            )">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--MacBook Air 15” M5 -->
+
+<div class="product"
+onclick="window.location.href='SanDisk-Extreme.html'">
+
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/macbook-air-15-inch-m5.png">
+
+    <div class="product__info">
+
+        <h3>MacBook Air 15" M5</h3>
+
+        <p>Súper delgada y silenciosa • Excelente autonomía</p>
+
+        <span>Q12,000</span>
+
+        <div class="product__buttons">
+
+           <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+            'MacBook Air 15 M5',
+            12000,
+            'https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/macbook-air-15-inch-m5.png'
+            )">
+
+                Agregar al carrito
+
+            </button>
+
+           <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+            'MacBook Air 15 M5',
+            12000,
+            'https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/macbook-air-15-inch-m5.png'
+            )">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Dell XPS 16 (2026) -->
+
+<div class="product"
+onclick="window.location.href='SanDisk-Extreme.html'">
+    >
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://hungphatlaptop.com/wp-content/uploads/2026/01/DELL-XPS-16-DA16260-2026-H2-1024x1024.jpeg">
+
+    <div class="product__info">
+
+        <h3>Dell XPS 16 (2026)</h3>
+
+        <p>Pantalla OLED 3K • Diseño ultraminimalista premium</p>
+
+        <span>Q25,000</span>
+
+        <div class="product__buttons">
+
+           <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+            'Dell XPS 16 (2026)',
+            25000,
+            'https://hungphatlaptop.com/wp-content/uploads/2026/01/DELL-XPS-16-DA16260-2026-H2-1024x1024.jpeg'
+            )">
+
+                Agregar al carrito
+
+            </button>
+
+           <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+            'Dell XPS 16 (2026)',
+            25000,
+            'https://hungphatlaptop.com/wp-content/uploads/2026/01/DELL-XPS-16-DA16260-2026-H2-1024x1024.jpeg'
+            )">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Lenovo ThinkPad X1 Carbon Gen 13 -->
+
+<div class="product"
+onclick="window.location.href='SanDisk-Extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://tse2.mm.bing.net/th/id/OIP.UxDK5dj-x990VmILUJQEJAHaFp?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+    <div class="product__info">
+
+        <h3>Lenovo ThinkPad X1 Carbon Gen 13</h3>
+
+        <p>Ultra ligera • Alta Autonomía</p>
+
+        <span>Q18,000</span>
+
+        <div class="product__buttons">
+
+           <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+            'Lenovo ThinkPad X1 Carbon Gen 13',
+            18000,
+            'https://tse2.mm.bing.net/th/id/OIP.UxDK5dj-x990VmILUJQEJAHaFp?rs=1&pid=ImgDetMain&o=7&rm=3'
+            )">
+
+                Agregar al carrito
+
+            </button>
+
+           <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+            'Lenovo ThinkPad X1 Carbon Gen 13',
+            18000,
+            'https://tse2.mm.bing.net/th/id/OIP.UxDK5dj-x990VmILUJQEJAHaFp?rs=1&pid=ImgDetMain&o=7&rm=3'
+            )">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Lenovo Yoga 9i Aura Edition -->
+
+<div class="product"
+onclick="window.location.href='SanDisk-Extreme.html'">
+
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://cdn.mos.cms.futurecdn.net/fFjPMjk2sVJ429ict9mTLm-1200-80.jpg">
+
+    <div class="product__info">
+
+        <h3>Lenovo Yoga 9i Aura Edition</h3>
+
+        <p>13.6" 4K Display • Intel Core i9 13900KS</p>
+
+        <span>Q25,000</span>
+
+        <div class="product__buttons">
+
+           <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+            'Lenovo Yoga 9i Aura Edition',
+            25000,
+            'https://cdn.mos.cms.futurecdn.net/fFjPMjk2sVJ429ict9mTLm-1200-80.jpg'
+            )">
+
+                Agregar al carrito
+
+            </button>
+
+           <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+            'Lenovo Yoga 9i Aura Edition',
+            25000,
+            'https://cdn.mos.cms.futurecdn.net/fFjPMjk2sVJ429ict9mTLm-1200-80.jpg'
+            )">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+        <!-- ASUS ROG Strix Scar 18 -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+
+                <p>
+                    Ver producto
+                </p>
+
+            </div>
+
+            <img src="https://thetechbasic.com/wp-content/uploads/2023/09/ASUS-Rog-Strix-Scar-18-FEATURED.jpeg">
+
+            <div class="product__info">
+
+                <h3>
+                    ASUS ROG Strix Scar 18
+                </h3>
+
+                <p>
+                    Gaming extremo • Pantalla 18"
+                </p>
+
+                <span>
+                 Q28,999
+                </span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'ASUS ROG Strix Scar 18',
+                    28999,
+                    'https://thetechbasic.com/wp-content/uploads/2023/09/ASUS-Rog-Strix-Scar-18-FEATURED.jpeg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'ASUS ROG Strix Scar 18',
+                    28999,
+                    'https://thetechbasic.com/wp-content/uploads/2023/09/ASUS-Rog-Strix-Scar-18-FEATURED.jpeg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Razer Blade 16-->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://tse3.mm.bing.net/th/id/OIP.iEFlo30nzLlQ9iuWB6npWQHaD4?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <div class="product__info">
+
+                <h3>
+                    Razer Blade 16
+                </h3>
+
+                <p>
+                    Gaming extremo • Pantalla 16"
+                </p>
+
+                <span>
+                    Q27,999
+                </span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Razer Blade 16',
+                    27999,
+                    'https://tse3.mm.bing.net/th/id/OIP.iEFlo30nzLlQ9iuWB6npWQHaD4?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Razer Blade 16',
+                    27999,
+                    'https://tse3.mm.bing.net/th/id/OIP.iEFlo30nzLlQ9iuWB6npWQHaD4?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ASUS ProArt P16 -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://www.fortressofsolitude.co.za/wp-content/uploads/2024/08/ASUS-ProArt-P16-01.jpg">
+
+            <div class="product__info">
+
+                <h3>
+                    ASUS ProArt P16
+                </h3>
+
+                <p>
+                    Estación de trabajo móvil • Pantalla 16"
+                </p>
+
+                <span>
+                    Q24,999
+                </span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'ASUS ProArt P16',
+                    24999,
+                    'https://www.fortressofsolitude.co.za/wp-content/uploads/2024/08/ASUS-ProArt-P16-01.jpg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'ASUS ProArt P16',
+                    24999,
+                    'https://www.fortressofsolitude.co.za/wp-content/uploads/2024/08/ASUS-ProArt-P16-01.jpg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+       
+
+    </div>
+
+</section>
+
+<!--TELEFONOS -->
+
+<section class="section"
+id="graficas">
+
+    <h2>
+        Telefonos
+    </h2>
+    <!--IPHONE 16--> 
+<div class="products">
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://http2.mlstatic.com/D_Q_NP_2X_677076-MLU79116568655_092024-V.webp">
+
+    <div class="product__info">
+
+        <h3>IPhone 16</h3>
+
+        <p>128GB • 6.1" Display</p>
+
+        <span>Q15,999</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('IPhone 16',15999,
+            'https://http2.mlstatic.com/D_Q_NP_2X_677076-MLU79116568655_092024-V.webp')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('IPhone 16',15999,
+            'https://http2.mlstatic.com/D_Q_NP_2X_677076-MLU79116568655_092024-V.webp')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- IPHONE 16 Pro Max -->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://bravadowireless.com/wp-content/uploads/2024/09/iPhone-16ProMAX-1.png">
+
+    <div class="product__info">
+
+        <h3>IPhone 16 Pro Max</h3>
+
+        <p> 256GB • 6.7" Display</p>
+
+        <span>Q5,399</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('IPhone 16 Pro Max',5399,'https://bravadowireless.com/wp-content/uploads/2024/09/iPhone-16ProMAX-1.png')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('IPhone 16 Pro Max',5399,'https://bravadowireless.com/wp-content/uploads/2024/09/iPhone-16ProMAX-1.png')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SAMSUNG GALAXY S25 -->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://tienda.clarochile.cl/wcsstore/CLAROCL_CAT_AS/Equipos/SAMSUNG_S25_128_NAVY/SamsungS25navy_1_1170x1500.png">
+
+    <div class="product__info">
+
+        <h3>Samsung Galaxy S25</h3>
+
+        <p>256GB • 6.2" Display</p>
+
+        <span>Q5,799</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('Samsung Galaxy S25',5799,'https://tienda.clarochile.cl/wcsstore/CLAROCL_CAT_AS/Equipos/SAMSUNG_S25_128_NAVY/SamsungS25navy_1_1170x1500.png')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('Samsung Galaxy S25',5799,'https://tienda.clarochile.cl/wcsstore/CLAROCL_CAT_AS/Equipos/SAMSUNG_S25_128_NAVY/SamsungS25navy_1_1170x1500.png')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SAMSUNG GALAXY A55-->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://tse1.mm.bing.net/th/id/OIP.iTFvcLMr6_B70CZVw2SXWgHaHa?w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+    <div class="product__info">
+
+        <h3>Samsung Galaxy A55</h3>
+
+        <p>128GB • 6.5" Display</p>
+
+        <span>Q2,799</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('Samsung Galaxy A55',2799,'https://tse1.mm.bing.net/th/id/OIP.iTFvcLMr6_B70CZVw2SXWgHaHa?w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('Samsung Galaxy A55',2799,'https://tse1.mm.bing.net/th/id/OIP.iTFvcLMr6_B70CZVw2SXWgHaHa?w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SAMSUNG GALAXY A35-->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://avechi.co.ke/wp-content/uploads/2024/03/Samsung-Galaxy-A35-5G-yellow1-788x788.jpg">
+
+    <div class="product__info">
+
+        <h3>Samsung Galaxy A35</h3>
+
+        <p>128GB • 6.5" Display</p>
+
+        <span>Q2,499</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('Samsung Galaxy A35',2499,'https://avechi.co.ke/wp-content/uploads/2024/03/Samsung-Galaxy-A35-5G-yellow1-788x788.jpg')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('Samsung Galaxy A35',2499,'https://avechi.co.ke/wp-content/uploads/2024/03/Samsung-Galaxy-A35-5G-yellow1-788x788.jpg')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- XIAOMI REDMI NOTE 14 -->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://media.ldlc.com/r1600/ld/products/00/06/20/00/LD0006200091.jpg">
+
+    <div class="product__info">
+
+        <h3>XIAOMI REDMI NOTE 14</h3>
+
+        <p>128GB • 6.67" Display</p>
+
+        <span>Q1,999</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('XIAOMI REDMI NOTE 14',1999,'https://media.ldlc.com/r1600/ld/products/00/06/20/00/LD0006200091.jpg')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('XIAOMI REDMI NOTE 14',1999,'https://media.ldlc.com/r1600/ld/products/00/06/20/00/LD0006200091.jpg')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- XIAOMI REDMI 14C-->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/139060033_01/w=800,h=800,fit=pad">
+
+    <div class="product__info">
+
+        <h3>Xiaomi Redmi 14C</h3>
+
+        <p>128GB • 6.67" Display</p>
+
+        <span>2,499</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('Xiaomi Redmi 14C',2499,'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/139060033_01/w=800,h=800,fit=pad')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('Xiaomi Redmi 14C',2499,'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/139060033_01/w=800,h=800,fit=pad')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- POCO X7 PRO -->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://cdn.movertix.com/media/catalog/product/cache/image/1200x/x/i/xiaomi-poco-x7-pro-5g-dual-sim-black-256gb-and-12gb-ram_1.jpg">
+
+    <div class="product__info">
+
+        <h3>POCO X7 PRO</h3>
+
+        <p>256GB • 6.67" Display</p>
+
+        <span>3,500</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('POCO X7 PRO',3500,'https://cdn.movertix.com/media/catalog/product/cache/image/1200x/x/i/xiaomi-poco-x7-pro-5g-dual-sim-black-256gb-and-12gb-ram_1.jpg')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('POCO X7 PRO',3500,'https://cdn.movertix.com/media/catalog/product/cache/image/1200x/x/i/xiaomi-poco-x7-pro-5g-dual-sim-black-256gb-and-12gb-ram_1.jpg')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- EDGE 50 FUSION -->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://resources.claroshop.com/medios-plazavip/t1/1738358335EDGE50FUSIONVERDE111jpg">
+
+    <div class="product__info">
+
+        <h3>Edge 50 Fusion</h3>
+
+        <p>8GB • 6.67" Display</p>
+
+        <span>Q2,200</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('Edge 50 Fusion',2200,'https://resources.claroshop.com/medios-plazavip/t1/1738358335EDGE50FUSIONVERDE111jpg')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('Edge 50 Fusion',2200,'https://resources.claroshop.com/medios-plazavip/t1/1738358335EDGE50FUSIONVERDE111jpg')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--MOTOROLA G85-->
+
+<div
+class="product"
+onclick="window.location.href='sandisk-extreme.html'">
+
+    <div class="card__overlay">
+        <p>Ver producto</p>
+    </div>
+
+    <img src="https://http2.mlstatic.com/D_NQ_NP_859662-MLU78708153265_082024-O.webp">
+
+    <div class="product__info">
+
+        <h3>Motorola G85</h3>
+
+        <p>128GB • 12GB RAM</p>
+
+        <span>Q1800</span>
+
+        <div class="product__buttons">
+
+            <button onclick="agregarAlCarrito('Motorola G85',1800,'https://http2.mlstatic.com/D_NQ_NP_859662-MLU78708153265_082024-O.webp')">
+
+                Agregar al carrito
+
+            </button>
+
+            <button class="buy-now"
+            onclick="comprarAhora('Motorola G85',1800,'https://http2.mlstatic.com/D_NQ_NP_859662-MLU78708153265_082024-O.webp')">
+
+                Comprar ahora
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+   
+
+        <!-- Honor X8c -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://ir.ozone.ru/s3/multimedia-1-t/c1000/7283432945.jpg">
+
+            <div class="product__info">
+
+                <h3>
+                    Honor X8c
+                </h3>
+
+                <p>
+                    128GB • 8GB RAM
+                </p>
+
+                <span>
+                    Q2,000
+                </span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Honor X8c',
+                    2000,
+                    'https://ir.ozone.ru/s3/multimedia-1-t/c1000/7283432945.jpg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Honor X8c',
+                    2000,
+                    'https://ir.ozone.ru/s3/multimedia-1-t/c1000/7283432945.jpg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Infinix GT 20 pro  -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://www.oled-info.com/sites/default/files/2024-04/Infinix-GT-20-Pro.jpg">
+
+            <div class="product__info">
+
+                <h3>
+                    Infinix GT 20 Pro
+                </h3>
+
+                <p>
+                    Procesador Mediatek • 128GB
+                </p>
+
+                <span>
+                    Q2,499
+                </span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Infinix GT 20 Pro',
+                    2499,
+                    'https://www.oled-info.com/sites/default/files/2024-04/Infinix-GT-20-Pro.jpg'   
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Infinix GT 20 Pro',
+                    2499,
+                    'https://www.oled-info.com/sites/default/files/2024-04/Infinix-GT-20-Pro.jpg'   
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        
+    </div>
+
+</section>
+<!-- TABLETS-->
+
+<section class="section" id="ram">
+
+    <h2>Tablets</h2>
+
+    <div class="products">
+
+        <!-- Samsung Tab s11 ultra -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://www.geeky-gadgets.com/wp-content/uploads/2025/08/samsung-galaxy-tab-s11-ultra-design-display_optimized.jpg">
+
+            <div class="product__info">
+
+                <h3>Samsung Tab S11 Ultra</h3>
+
+                <p>128GB • 8GB RAM</p>
+
+                <span>Q2,999</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Samsung Tab S11 Ultra',
+                    2999,
+                    'https://www.geeky-gadgets.com/wp-content/uploads/2025/08/samsung-galaxy-tab-s11-ultra-design-display_optimized.jpg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Samsung Tab S11 Ultra',
+                    2999,
+                    'https://www.geeky-gadgets.com/wp-content/uploads/2025/08/samsung-galaxy-tab-s11-ultra-design-display_optimized.jpg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Ipad Pro M5 -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://tse3.mm.bing.net/th/id/OIP.9Kc8PFjY82sADK7H4CB9dwHaD4?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <div class="product__info">
+
+                <h3>Apple iPad Pro M5</h3>
+
+                <p>128GB • 8GB RAM</p>
+
+                <span>Q5,999</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Apple iPad Pro M5',
+                    5999,
+                    'https://tse3.mm.bing.net/th/id/OIP.9Kc8PFjY82sADK7H4CB9dwHaD4?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Apple iPad Pro M5',
+                    5999,
+                    'https://tse3.mm.bing.net/th/id/OIP.9Kc8PFjY82sADK7H4CB9dwHaD4?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Samsung Galaxy Tab S10 FE+ -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://tse2.mm.bing.net/th/id/OIP.X4pYbBqAYUo_VuijNZyhJgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <div class="product__info">
+
+                <h3>Samsung Galaxy Tab S10 FE+</h3>
+
+                <p>256GB • 8GB RAM</p>
+
+                <span>Q4,699</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Samsung Galaxy Tab S10 FE+',
+                    4699,
+                    'https://tse2.mm.bing.net/th/id/OIP.X4pYbBqAYUo_VuijNZyhJgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Samsung Galaxy Tab S10 FE+',
+                    4699,
+                    'https://tse2.mm.bing.net/th/id/OIP.X4pYbBqAYUo_VuijNZyhJgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Lenovo Yoga Tab Plus -->
+
+        <div class="product"
+            onclick="window.location.href='Teamgroup.html'">
+             <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://p3-ofp.static.pub/ShareResource/we/images/PN-list-image/Lenovo-Yoga-Tab-Plus.png">
+
+            <div class="product__info">
+
+                <h3>Lenovo Yoga Tab Plus</h3>
+
+                <p>256GB • 8GB RAM</p>
+
+                <span>Q3,000</span>
+
+                <div class="product__buttons">
+
+                    <button
+                        onclick="event.stopPropagation(); 
+                        
+                        agregarAlCarrito(
+                            'Lenovo Yoga Tab Plus',
+                            3000,
+                            'https://p3-ofp.static.pub/ShareResource/we/images/PN-list-image/Lenovo-Yoga-Tab-Plus.png'
+                        )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Lenovo Yoga Tab Plus',
+                    3000,
+                    'https://p3-ofp.static.pub/ShareResource/we/images/PN-list-image/Lenovo-Yoga-Tab-Plus.png'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Xiaomi Redmi Pad Pro -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://tse2.mm.bing.net/th/id/OIP.R3VU26y9cvkf_WrinZgcLQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <div class="product__info">
+
+                <h3>Xiaomi Redmi Pad Pro</h3>
+
+                <p>256GB • 8GB RAM</p>
+
+                <span>Q2,499</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Xiaomi Redmi Pad Pro',
+                    2499,
+                    'https://tse2.mm.bing.net/th/id/OIP.R3VU26y9cvkf_WrinZgcLQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Xiaomi Redmi Pad Pro',
+                    2499,
+                    'https://tse2.mm.bing.net/th/id/OIP.R3VU26y9cvkf_WrinZgcLQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Xiaomi Pad 7 Pro -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://fdn.gsmarena.com/imgroot/news/24/10/xiaomi-pad-7-pad-7-pro-official/inline/-1200/gsmarena_001.jpg">
+
+            <div class="product__info">
+
+                <h3>Xiaomi Pad 7 Pro</h3>
+
+                <p>256GB • 8GB RAM</p>
+
+                <span>Q2,899</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Xiaomi Pad 7 Pro',
+                    2899,
+                    'https://fdn.gsmarena.com/imgroot/news/24/10/xiaomi-pad-7-pad-7-pro-official/inline/-1200/gsmarena_001.jpg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Xiaomi Pad 7 Pro',
+                    2899,
+                    'https://fdn.gsmarena.com/imgroot/news/24/10/xiaomi-pad-7-pad-7-pro-official/inline/-1200/gsmarena_001.jpg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CONSOLAS -->
+
+<section class="section" id="almacenamiento">
+
+    <h2>Consolas</h2>
+
+    <div class="products">
+
+        <!-- XBOX ONE -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://i.zst.com.br/thumbs/12/f/38/2006228227.jpg">
+
+            <div class="product__info">
+
+                <h3>Xbox one fat</h3>
+
+                <p>Black • 1TB</p>
+
+                <span>Q2,000</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Xbox one fat ',
+                    2000,
+                    'https://i.zst.com.br/thumbs/12/f/38/2006228227.jpg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Xbox one fat ',
+                    2000,
+                    'https://i.zst.com.br/thumbs/12/f/38/2006228227.jpg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- PLAY STATION 4 SLIM-->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://i5.walmartimages.com/asr/29a6a03b-7389-4aec-88c5-378bc47c5c31_1.e5f61e35863a57ca520bf312c1617843.jpeg">
+
+            <div class="product__info">
+
+                <h3>Play Station 4 Slim</h3>
+
+                <p>Black • 1TB</p>
+
+                <span>Q2000</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Play Station 4 Slim',
+                    2000,
+                    'https://i5.walmartimages.com/asr/29a6a03b-7389-4aec-88c5-378bc47c5c31_1.e5f61e35863a57ca520bf312c1617843.jpeg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Play Station 4 Slim',
+                    2000,
+                    'https://i5.walmartimages.com/asr/29a6a03b-7389-4aec-88c5-378bc47c5c31_1.e5f61e35863a57ca520bf312c1617843.jpeg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Xbox 360 -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://tse4.mm.bing.net/th/id/OIP.Pa9uoaA-Cy5yg7zpYEw-cwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <div class="product__info">
+
+                <h3>Xbox 360</h3>
+
+                <p>White • 512GB</p>
+
+                <span>Q1000</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Xbox 360',
+                    1000,
+                    'https://tse4.mm.bing.net/th/id/OIP.Pa9uoaA-Cy5yg7zpYEw-cwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Xbox 360',
+                    1000,
+                    'https://tse4.mm.bing.net/th/id/OIP.Pa9uoaA-Cy5yg7zpYEw-cwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--XBOX SERIES S -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://images.purexbox.com/284ddae9f6215/1280x720.jpg">
+
+            <div class="product__info">
+
+                <h3>Xbox Series S</h3>
+
+                <p>Robot white • 512GB</p>
+
+                <span>Q2,500</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Xbox Series S ',
+                    2500,
+                    'https://images.purexbox.com/284ddae9f6215/1280x720.jpg'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Xbox Series S',
+                    2500,
+                    'https://images.purexbox.com/284ddae9f6215/1280x720.jpg'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- PALY STATTION 5 FAT -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://i.ebayimg.com/images/g/pigAAOSwOM1jlzmb/s-l960.webp">
+
+            <div class="product__info">
+
+                <h3>Play Station 5 fat </h3>
+
+                <p>White• 480GB</p>
+
+                <span>Q3,500</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Play Station 5 fat',
+                    3500,
+                    'https://i.ebayimg.com/images/g/pigAAOSwOM1jlzmb/s-l960.webp'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Play Station 5 fat',
+                    3500,
+                    'https://i.ebayimg.com/images/g/pigAAOSwOM1jlzmb/s-l960.webp'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--XBOX SERIES X  -->
+
+           <div class="product"
+            onclick="window.location.href='teamgroup.html'">
+
+            <div class="card__overlay">
+                <p>Ver producto</p>
+            </div>
+
+            <img src="https://tse1.mm.bing.net/th/id/OIP.if8cx402zWX-OEWu6_saRAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3">
+
+            <div class="product__info">
+
+                <h3>Xbox Series X</h3>
+
+                <p>Carbon Black • 1TB</p>
+
+                <span>Q4000</span>
+
+                <div class="product__buttons">
+
+                     <button
+            onclick="
+            event.stopPropagation();
+
+            agregarAlCarrito(
+                    'Xbox Series X',
+                    4000,
+                    'https://tse1.mm.bing.net/th/id/OIP.if8cx402zWX-OEWu6_saRAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Agregar al carrito
+
+                    </button>
+
+                     <button
+            class="buy-now"
+
+            onclick="
+            event.stopPropagation();
+
+            comprarAhora(
+                    'Xbox Series X',
+                    4000,
+                    'https://tse1.mm.bing.net/th/id/OIP.if8cx402zWX-OEWu6_saRAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3'
+                    )">
+
+                        Comprar ahora
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CONTACTO -->
+
+<section class="contact-section">
+
+    <div class="contact-container glass">
+
+        <!-- IZQUIERDA -->
+
+        <div class="contact-left">
+
+            <p class="contact-mini">
+
+                CONTACTO
+
+            </p>
+
+            <h2>
+
+                Hablemos.
+
+            </h2>
+
+            <p class="contact-text">
+
+                ¿Necesitas ayuda con un producto,
+                soporte técnico o una cotización?
+                Contáctanos por cualquiera de
+                nuestros medios oficiales.
+
+            </p>
+
+            <!-- INFO -->
+
+            <div class="contact-info">
+
+                <a
+                href="mailto:artech@gmail.com"
+                class="contact-item">
+
+                    <i class="fi fi-rr-envelope"></i>
+
+                    <span>
+
+                        artech@gmail.com
+
+                    </span>
+
+                </a>
+
+                <a
+                href="tel:+50231746055"
+                class="contact-item">
+
+                    <i class="fi fi-rr-phone-call"></i>
+
+                    <span>
+
+                        +502 3174 6055
+
+                    </span>
+
+                </a>
+
+                <!-- UBICACION  -->
+
+                <a
+                href="https://maps.google.com/?q=Guatemala+City"
+                target="_blank"
+                class="contact-item">
+
+                    <i class="fi fi-rr-marker"></i>
+
+                    <span>
+
+                        Ciudad de Guatemala
+
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- DERECHA -->
+
+        <div class="contact-right">
+
+            <!-- REDES -->
+
+            <div class="social-grid">
+
+                <!-- FACEBOOK -->
+
+                <a
+                href="https://www.facebook.com/profile.php?id=61590310402264&rdid=i6B9gaeGSbVyIGTc&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F7YxkpH8Q%2F#"
+                target="_blank"
+                class="social-card">
+
+                    <img
+                    src="facebook.png"
+                    class="icono__red"
+                    alt="Facebook">
+
+                    <div>
+
+                        <strong>
+
+                            Facebook
+
+                        </strong>
+
+                        <p>
+
+                            Noticias y comunidad
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- INSTAGRAM -->
+
+                <a
+                href="https://www.instagram.com/officialartech_?igsh=MjUyYjNjYTZraDE2&utm_source=qr"
+                target="_blank"
+                class="social-card">
+
+                    <img
+                    src="instagram.png"
+                    class="icono__red"
+                    alt="Instagram">
+
+                    <div>
+
+                        <strong>
+
+                            Instagram
+
+                        </strong>
+
+                        <p>
+
+                            Productos y contenido
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- WHATSAPP -->
+
+                <a
+                href="https://wa.me/50231746055"
+                target="_blank"
+                class="social-card">
+
+                    <img
+                    src="whatsapp.png"
+                    class="icono__red"
+                    alt="WhatsApp">
+
+                    <div>
+
+                        <strong>
+
+                            WhatsApp
+
+                        </strong>
+
+                        <p>
+
+                            Atención inmediata
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+            <!-- FORM -->
+
+            <form
+            class="contact-form"
+            id="contactForm">
+
+                <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre completo"
+                required>
+
+                <input
+                type="email"
+                id="correo"
+                placeholder="Correo electrónico"
+                required>
+
+                <textarea
+                id="mensaje"
+                placeholder="Escribe tu mensaje"
+                required></textarea>
+
+                <button type="submit">
+
+                    Enviar mensaje
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-glass">
+
+        <div class="footer-logo">
+
+            <img
+            src="lambda 2.png"
+            alt="Artech">
+
+            <span>
+
+                Artech
+
+            </span>
+
+        </div>
+
+        <p>
+
+            Hardware premium y componentes
+            de alto rendimiento para gamers,
+            creadores y entusiastas.
+
+        </p>
+
+        <div class="footer-bottom">
+
+            © 2026 Artech. Todos los derechos reservados.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="carrito-global.js"></script>
+<script src="Particulas.js"></script>
+
+</body>
+</html>

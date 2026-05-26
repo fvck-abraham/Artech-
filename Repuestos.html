@@ -1,0 +1,2220 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Artech | Repuestos</title>
+
+    <link rel="stylesheet" href="Repuestos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+
+    <link rel="icon" type="image/png" href="lambda.png" />
+  </head>
+
+  <body>
+    <canvas id="bgCanvas"></canvas>
+    <!-- HEADER -->
+
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="lambda 2.png" alt="Logo" />
+
+        <span> Artech </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#procesadores"> Procesadores </a>
+
+        <a href="#graficas"> Gráficas </a>
+
+        <a href="#ram"> RAM </a>
+
+        <a href="#almacenamiento"> SSD </a>
+
+        <!--CUENTA-->
+
+         </a>
+
+           <a href="Cuenta.html"
+          class="account-btn">
+
+           <i class="fi fi-rr-user"></i>
+
+             </a>
+
+
+        <!-- CARRITO -->
+
+            <a
+            href="Carrito.html"
+            class="carrito">
+
+                <i class="fi fi-rr-cart-shopping-fast"></i>
+
+                <span
+                class="cart-count"
+                id="cartCount">
+
+                    0
+
+                </span>
+
+            </a>
+
+        
+          <span class="cart-count" id="cartCount"> 0 </span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__mini">Hardware profesional</p>
+
+        <h1>Repuestos premium.</h1>
+
+        <p class="hero__text">
+          Componentes de alto rendimiento para gaming extremo, productividad y
+          workstations.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROCESADORES -->
+
+    <section class="section" id="procesadores">
+      <h2>Procesadores</h2>
+
+      <div class="products">
+        <!--Intel i9 14900K -->
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/10/intel-core-i9-14900k-review-benchmarks.jpg"
+          />
+
+          <div class="product__info">
+            <h3>Intel i9 14900K</h3>
+
+            <p>12 núcleos • Gaming extremo</p>
+
+            <span>Q8,999</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel i9 14900K',
+                    8999,
+                    'https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/10/intel-core-i9-14900k-review-benchmarks.jpg'
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel i9 14900K',
+                    8999,
+                    'https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/10/intel-core-i9-14900k-review-benchmarks.jpg',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RYZEN 7 7800X3D -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Ryzen 7 7800X3D</h3>
+
+            <p>8 núcleos • Gaming extremo</p>
+
+            <span>Q3,999</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Ryzen 7 7800X3D',
+                    3999,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Ryzen 7 7800X3D',
+                    3999,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RYZEN 9 7900X -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Ryzen 9 7900X</h3>
+
+            <p>12 núcleos • AM5</p>
+
+            <span>Q4,699</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Ryzen 9 7900X',
+                    4699,
+                    'https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Ryzen 9 7900X',
+                    4699,
+                    'https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTEL I5 14600K -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Intel Core i5 14600K</h3>
+
+            <p>14 núcleos • LGA1700</p>
+
+            <span>Q2,799</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel Core i5 14600K',
+                    2799,
+                    'https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel Core i5 14600K',
+                    2799,
+                    'https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTEL I7 13700K -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Intel Core i7 13700K</h3>
+
+            <p>16 núcleos • Gaming y edición</p>
+
+            <span>Q4,299</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel Core i7 13700K',
+                    4299,
+                    'https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel Core i7 13700K',
+                    4299,
+                    'https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTEL I9 13900KS -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Intel Core i9 13900KS</h3>
+
+            <p>24 núcleos • 6GHz Turbo</p>
+
+            <span>Q6,199</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel Core i9 13900KS',
+                    6199,
+                    'https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel Core i9 13900KS',
+                    6199,
+                    'https://images.unsplash.com/photo-1587202372634-32705e3bf49c?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 1 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Intel Core i9 14900K</h3>
+
+            <p>24 núcleos • 6.0GHz</p>
+
+            <span> Q5,499 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel Core i9 14900K',
+                    5499,
+                    'https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel Core i9 14900K',
+                    5499,
+                    'https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 2 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Ryzen 9 7950X</h3>
+
+            <p>16 núcleos • AM5</p>
+
+            <span> Q4,999 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Ryzen 9 7950X',
+                    4999,
+                    'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Ryzen 9 7950X',
+                    4999,
+                    'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 3 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Intel Core i7 14700KF</h3>
+
+            <p>Gaming extremo</p>
+
+            <span> Q3,799 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel Core i7 14700KF',
+                    3799,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel Core i7 14700KF',
+                    3799,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCTO 4 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Ryzen 7 7800X3D</h3>
+
+            <p>Cache 3D • Gaming</p>
+
+            <span> Q3,299 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Ryzen 7 7800X3D',
+                    3299,
+                    'https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Ryzen 7 7800X3D',
+                    3299,
+                    'https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRAFICAS -->
+
+    <section class="section" id="graficas">
+      <h2>Tarjetas Gráficas</h2>
+      <!-- RTX 3050 -->
+      <div class="products">
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://tse3.mm.bing.net/th/id/OIP.Wz5o-saxDTVrZxg5JKMjsAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+          />
+
+          <div class="product__info">
+            <h3>RTX 3050</h3>
+
+            <p>8GB GDDR6 • Entrada gaming</p>
+
+            <span>Q2,499</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 3050',
+                    2499,
+                    'https://tse3.mm.bing.net/th/id/OIP.Wz5o-saxDTVrZxg5JKMjsAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 3050',
+                    2499,
+                    'https://tse3.mm.bing.net/th/id/OIP.Wz5o-saxDTVrZxg5JKMjsAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 3060 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://i.ebayimg.com/thumbs/images/g/DosAAOSwNctoHn5w/s-l500.jpg"
+          />
+
+          <div class="product__info">
+            <h3>RTX 3060</h3>
+
+            <p>12GB • Full HD Ultra</p>
+
+            <span>Q3,399</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 3060',
+                    3399,
+                    'https://i.ebayimg.com/thumbs/images/g/DosAAOSwNctoHn5w/s-l500.jpg',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 3060',
+                    3399,
+                    'https://i.ebayimg.com/thumbs/images/g/DosAAOSwNctoHn5w/s-l500.jpg',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 3070 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462266_sd.jpg   "
+          />
+
+          <div class="product__info">
+            <h3>RTX 3070</h3>
+
+            <p>8GB • Ray Tracing</p>
+
+            <span>Q4,699</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 3070',
+                    4699,
+                    'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462266_sd.jpg   ',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 3070',
+                    4699,
+                    'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462266_sd.jpg   ',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 3080 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://m.media-amazon.com/images/I/71bda4nJ2JL.jpg"
+          />
+
+          <div class="product__info">
+            <h3>RTX 3080</h3>
+
+            <p>10GB • 4K Gaming</p>
+
+            <span>Q6,799</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 3080',
+                    6799,
+                    'https://m.media-amazon.com/images/I/71bda4nJ2JL.jpg',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 3080',
+                    6799,
+                    'https://m.media-amazon.com/images/I/71bda4nJ2JL.jpg',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 3090 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://tse4.mm.bing.net/th/id/OIP.vvbr6qBtpqLAfql-DuRJ4gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+          />
+
+          <div class="product__info">
+            <h3>RTX 3090</h3>
+
+            <p>24GB • Creator Edition</p>
+
+            <span>Q9,499</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 3090',
+                    9499,
+                    'https://tse4.mm.bing.net/th/id/OIP.vvbr6qBtpqLAfql-DuRJ4gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 3090',
+                    9499,
+                    'https://tse4.mm.bing.net/th/id/OIP.vvbr6qBtpqLAfql-DuRJ4gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RX 7600 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://img.terabyteshop.com.br/produto/g/placa-de-video-gigabyte-amd-radeon-rx-7600-xt-gaming-oc-16gb-gddr6-fsr-ray-tracing-gv-r76xtgaming-oc-16gd_188716.png"
+          />
+
+          <div class="product__info">
+            <h3>RX 7600 XT</h3>
+
+            <p>16GB • AMD Radeon</p>
+
+            <span>Q3,799</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RX 7600 XT',
+                    3799,
+                    'https://img.terabyteshop.com.br/produto/g/placa-de-video-gigabyte-amd-radeon-rx-7600-xt-gaming-oc-16gb-gddr6-fsr-ray-tracing-gv-r76xtgaming-oc-16gd_188716.png',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RX 7600 XT',
+                    3799,
+                    'https://img.terabyteshop.com.br/produto/g/placa-de-video-gigabyte-amd-radeon-rx-7600-xt-gaming-oc-16gb-gddr6-fsr-ray-tracing-gv-r76xtgaming-oc-16gd_188716.png',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RX 7700 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://bermorzone.com.ph/wp-content/uploads/2023/08/Radeon%E2%84%A2-RX-7700-XT-GAMING-OC-12G.webp"
+          />
+
+          <div class="product__info">
+            <h3>RX 7700 XT</h3>
+
+            <p>12GB • 1440p Gaming</p>
+
+            <span>Q4,899</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RX 7700 XT',
+                    4899,
+                    'https://bermorzone.com.ph/wp-content/uploads/2023/08/Radeon%E2%84%A2-RX-7700-XT-GAMING-OC-12G.webp',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RX 7700 XT',
+                    4899,
+                    'https://bermorzone.com.ph/wp-content/uploads/2023/08/Radeon%E2%84%A2-RX-7700-XT-GAMING-OC-12G.webp',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RX 7800 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://tse3.mm.bing.net/th/id/OIP.A7KdRKQvC9RmB3isWfPciAHaHN?rs=1&pid=ImgDetMain&o=7&rm=3"
+          />
+
+          <div class="product__info">
+            <h3>RX 7800 XT</h3>
+
+            <p>16GB • Ultra Gaming</p>
+
+            <span>Q6,199</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RX 7800 XT',
+                    6199,
+                    'https://tse3.mm.bing.net/th/id/OIP.A7KdRKQvC9RmB3isWfPciAHaHN?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RX 7800 XT',
+                    6199,
+                    'https://tse3.mm.bing.net/th/id/OIP.A7KdRKQvC9RmB3isWfPciAHaHN?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ARC A770 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://cdn.wccftech.com/wp-content/uploads/2022/09/Intel-Arc-A770-Graphics-Card-low_res-scale-4_00x-Custom-1920x1152.png"
+          />
+
+          <div class="product__info">
+            <h3>Intel Arc A770</h3>
+
+            <p>16GB • XeSS</p>
+
+            <span>Q3,299</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Intel Arc A770',
+                    3299,
+                    'https://cdn.wccftech.com/wp-content/uploads/2022/09/Intel-Arc-A770-Graphics-Card-low_res-scale-4_00x-Custom-1920x1152.png',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Intel Arc A770',
+                    3299,
+                    'https://cdn.wccftech.com/wp-content/uploads/2022/09/Intel-Arc-A770-Graphics-Card-low_res-scale-4_00x-Custom-1920x1152.png',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- GT 1030 -->
+
+        <div
+          class="product"
+          onclick="window.location.href = 'sandisk-extreme.html'"
+        >
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://i.ebayimg.com/images/g/rr4AAOSwSSNgtdi2/s-l960.webp"
+          />
+
+          <div class="product__info">
+            <h3>GT 1030</h3>
+
+            <p>2GB • Oficina y multimedia</p>
+
+            <span>Q899</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'GT 1030',
+                    899,
+                    'https://i.ebayimg.com/images/g/rr4AAOSwSSNgtdi2/s-l960.webp',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'GT 1030',
+                    899,
+                    'https://i.ebayimg.com/images/g/rr4AAOSwSSNgtdi2/s-l960.webp',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 4090 -->
+
+        <div class="product" onclick="window.location.href = 'RTX 4090.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>RTX 4090</h3>
+
+            <p>24GB GDDR6X</p>
+
+            <span> Q18,999 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 4090',
+                    18999,
+                    'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 4090',
+                    18999,
+                    'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 4080 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://asset.msi.com/resize/image/global/product/product_1704700391c0ff70dde2655cc06ad6ccc5737c84bf.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+          />
+
+          <div class="product__info">
+            <h3>RTX 4080 Super</h3>
+
+            <p>Ray Tracing extremo</p>
+
+            <span> Q12,499 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 4080 Super',
+                    12499,
+                    'https://asset.msi.com/resize/image/global/product/product_1704700391c0ff70dde2655cc06ad6ccc5737c84bf.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 4080 Super',
+                    12499,
+                    'https://asset.msi.com/resize/image/global/product/product_1704700391c0ff70dde2655cc06ad6ccc5737c84bf.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RTX 4070 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528733_sd.jpg"
+          />
+
+          <div class="product__info">
+            <h3>RTX 4070 Ti</h3>
+
+            <p>DLSS 3 • 12GB</p>
+
+            <span> Q8,999 </span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'RTX 4070 Ti',
+                    8999,
+                    'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528733_sd.jpg',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'RTX 4070 Ti',
+                    8999,
+                    'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528733_sd.jpg',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MEMORIAS RAM -->
+
+    <section class="section" id="ram">
+      <h2>Memorias RAM</h2>
+
+      <div class="products">
+        <!-- CORSAIR -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Corsair Dominator Platinum</h3>
+
+            <p>DDR5 • 32GB • RGB</p>
+
+            <span>Q1,899</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Corsair Dominator Platinum',
+                    1899,
+                    'https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Corsair Dominator Platinum',
+                    1899,
+                    'https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- KINGSTON -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Kingston Fury Beast</h3>
+
+            <p>DDR5 • 64GB • 6000MHz</p>
+
+            <span>Q2,499</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Kingston Fury Beast',
+                    2499,
+                    'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Kingston Fury Beast',
+                    2499,
+                    'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- G.SKILL -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/71cqpw-pTVL._AC_SL1500_.jpg"
+          />
+
+          <div class="product__info">
+            <h3>G.Skill Trident Z5</h3>
+
+            <p>DDR5 • 32GB • RGB</p>
+
+            <span>Q1,699</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'G.Skill Trident Z5',
+                    1699,
+                    'https://images-na.ssl-images-amazon.com/images/I/71cqpw-pTVL._AC_SL1500_.jpg',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'G.Skill Trident Z5',
+                    1699,
+                    'https://images-na.ssl-images-amazon.com/images/I/71cqpw-pTVL._AC_SL1500_.jpg',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- TEAMGROUP -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>TEAMGROUP T-Force Delta</h3>
+
+            <p>DDR5 • 32GB • RGB</p>
+
+            <span>Q1,499</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'TEAMGROUP T-Force Delta',
+                    1499,
+                    'https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'TEAMGROUP T-Force Delta',
+                    1499,
+                    'https://images.unsplash.com/photo-1587202372583-49330a15584d?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRUCIAL -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Crucial Pro</h3>
+
+            <p>DDR5 • 16GB • 5600MHz</p>
+
+            <span>Q899</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Crucial Pro',
+                    899,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Crucial Pro',
+                    899,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CORSAIR VENGEANCE -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Corsair Vengeance</h3>
+
+            <p>DDR5 • 64GB • 6400MHz</p>
+
+            <span>Q2,899</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Corsair Vengeance',
+                    2899,
+                    'https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Corsair Vengeance',
+                    2899,
+                    'https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ALMACENAMIENTO -->
+
+    <section class="section" id="almacenamiento">
+      <h2>Almacenamiento</h2>
+
+      <div class="products">
+        <!-- SSD 1 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Samsung 990 Pro</h3>
+
+            <p>SSD NVMe • 2TB • PCIe 4.0</p>
+
+            <span>Q1,699</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Samsung 990 Pro',
+                    1699,
+                    'https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Samsung 990 Pro',
+                    1699,
+                    'https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SSD 2 -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Kingston NV2</h3>
+
+            <p>SSD NVMe • 1TB</p>
+
+            <span>Q799</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Kingston NV2',
+                    799,
+                    'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Kingston NV2',
+                    799,
+                    'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- HDD -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1531492746076-161ca9bcad58?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Seagate Barracuda</h3>
+
+            <p>HDD • 4TB • 7200RPM</p>
+
+            <span>Q899</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Seagate Barracuda',
+                    899,
+                    'https://images.unsplash.com/photo-1531492746076-161ca9bcad58?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Seagate Barracuda',
+                    899,
+                    'https://images.unsplash.com/photo-1531492746076-161ca9bcad58?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SSD EXTERNO -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://tse3.mm.bing.net/th/id/OIP.kKMZjkTqbhIE2bVsnkzw5wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+          />
+
+          <div class="product__info">
+            <h3>SanDisk Extreme</h3>
+
+            <p>SSD Externo • 2TB</p>
+
+            <span>Q1,299</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'SanDisk Extreme',
+                    1299,
+                    'https://tse3.mm.bing.net/th/id/OIP.kKMZjkTqbhIE2bVsnkzw5wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'SanDisk Extreme',
+                    1299,
+                    'https://tse3.mm.bing.net/th/id/OIP.kKMZjkTqbhIE2bVsnkzw5wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- WD BLACK -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372616-b43abea06c2a?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>WD Black SN850X</h3>
+
+            <p>SSD Gaming • 2TB</p>
+
+            <span>Q1,599</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'WD Black SN850X',
+                    1599,
+                    'https://images.unsplash.com/photo-1587202372616-b43abea06c2a?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'WD Black SN850X',
+                    1599,
+                    'https://images.unsplash.com/photo-1587202372616-b43abea06c2a?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRUCIAL -->
+
+        <div class="product" onclick="window.location.href = 'teamgroup.html'">
+          <div class="card__overlay">
+            <p>Ver producto</p>
+          </div>
+
+          <img
+            src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop"
+          />
+
+          <div class="product__info">
+            <h3>Crucial P3 Plus</h3>
+
+            <p>SSD NVMe • 4TB</p>
+
+            <span>Q2,199</span>
+
+            <div class="product__buttons">
+              <button
+                onclick="
+                  event.stopPropagation();
+
+                  agregarAlCarrito(
+                    'Crucial P3 Plus',
+                    2199,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Agregar al carrito
+              </button>
+
+              <button
+                class="buy-now"
+                onclick="
+                  event.stopPropagation();
+
+                  comprarAhora(
+                    'Crucial P3 Plus',
+                    2199,
+                    'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop',
+                  );
+                "
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACTO -->
+
+<section class="contact-section">
+
+    <div class="contact-container glass">
+
+        <!-- IZQUIERDA -->
+
+        <div class="contact-left">
+
+            <p class="contact-mini">
+
+                CONTACTO
+
+            </p>
+
+            <h2>
+
+                Hablemos.
+
+            </h2>
+
+            <p class="contact-text">
+
+                ¿Necesitas ayuda con un producto,
+                soporte técnico o una cotización?
+                Contáctanos por cualquiera de
+                nuestros medios oficiales.
+
+            </p>
+
+            <!-- INFO -->
+
+            <div class="contact-info">
+
+                <a
+                href="mailto:artech@gmail.com"
+                class="contact-item">
+
+                    <i class="fi fi-rr-envelope"></i>
+
+                    <span>
+
+                        artech@gmail.com
+
+                    </span>
+
+                </a>
+
+                <a
+                href="tel:+50231746055"
+                class="contact-item">
+
+                    <i class="fi fi-rr-phone-call"></i>
+
+                    <span>
+
+                        +502 3174 6055
+
+                    </span>
+
+                </a>
+
+                <!-- UBICACION  -->
+
+                <a
+                href="https://maps.google.com/?q=Guatemala+City"
+                target="_blank"
+                class="contact-item">
+
+                    <i class="fi fi-rr-marker"></i>
+
+                    <span>
+
+                        Ciudad de Guatemala
+
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- DERECHA -->
+
+        <div class="contact-right">
+
+            <!-- REDES -->
+
+            <div class="social-grid">
+
+                <!-- FACEBOOK -->
+
+                <a
+                href="https://www.facebook.com/profile.php?id=61590310402264&rdid=i6B9gaeGSbVyIGTc&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F7YxkpH8Q%2F#"
+                target="_blank"
+                class="social-card">
+
+                    <img
+                    src="facebook.png"
+                    class="icono__red"
+                    alt="Facebook">
+
+                    <div>
+
+                        <strong>
+
+                            Facebook
+
+                        </strong>
+
+                        <p>
+
+                            Noticias y comunidad
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- INSTAGRAM -->
+
+                <a
+                href="https://www.instagram.com/officialartech_?igsh=MjUyYjNjYTZraDE2&utm_source=qr"
+                target="_blank"
+                class="social-card">
+
+                    <img
+                    src="instagram.png"
+                    class="icono__red"
+                    alt="Instagram">
+
+                    <div>
+
+                        <strong>
+
+                            Instagram
+
+                        </strong>
+
+                        <p>
+
+                            Productos y contenido
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- WHATSAPP -->
+
+                <a
+                href="https://wa.me/50231746055"
+                target="_blank"
+                class="social-card">
+
+                    <img
+                    src="whatsapp.png"
+                    class="icono__red"
+                    alt="WhatsApp">
+
+                    <div>
+
+                        <strong>
+
+                            WhatsApp
+
+                        </strong>
+
+                        <p>
+
+                            Atención inmediata
+
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+            <!-- FORM -->
+
+            <form
+            class="contact-form"
+            id="contactForm">
+
+                <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre completo"
+                required>
+
+                <input
+                type="email"
+                id="correo"
+                placeholder="Correo electrónico"
+                required>
+
+                <textarea
+                id="mensaje"
+                placeholder="Escribe tu mensaje"
+                required></textarea>
+
+                <button type="submit">
+
+                    Enviar mensaje
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-glass">
+
+        <div class="footer-logo">
+
+            <img
+            src="lambda 2.png"
+            alt="Artech">
+
+            <span>
+
+                Artech
+
+            </span>
+
+        </div>
+
+        <p>
+
+            Hardware premium y componentes
+            de alto rendimiento para gamers,
+            creadores y entusiastas.
+
+        </p>
+
+        <div class="footer-bottom">
+
+            © 2026 Artech. Todos los derechos reservados.
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <script src="carrito-global.js"></script>
+    <script src="Particulas.js"></script>
+
+  </body>
+</html>

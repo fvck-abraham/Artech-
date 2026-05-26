@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Artech | Carrito</title>
+
+    <link
+    rel="stylesheet"
+    href="Carrito.css">
+
+    <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+</head>
+
+<body>
+
+    <!-- PARTICULAS -->
+
+    <canvas id="bgCanvas"></canvas>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+
+            <img
+            src="lambda 2.png"
+            alt="Logo">
+
+            <span>
+                Artech
+            </span>
+
+        </a>
+
+    </header>
+
+    <!-- CARRITO -->
+
+    <section class="checkout">
+
+        <!-- IZQUIERDA -->
+
+        <div class="checkout__left">
+
+            <div class="glass">
+
+                <p class="mini">
+                    CHECKOUT
+                </p>
+
+                <h1>
+                    Finaliza tu compra
+                </h1>
+
+                <p class="subtitle">
+
+                    Revisa tus productos y continúa
+                    con el proceso de compra seguro.
+
+                </p>
+
+            </div>
+
+            <!-- PRODUCTOS -->
+
+            <div class="cart-items glass" id="cartItems"></div>
+
+        </div>
+
+        <!-- DERECHA -->
+
+        <div class="checkout__right">
+
+            <!-- RESUMEN -->
+
+            <div class="summary glass">
+
+                <h2>
+                    Resumen
+                </h2>
+
+                <div class="summary__row">
+
+                    <span>
+                        Productos
+                    </span>
+
+                    <span id="itemsCount">
+                        0
+                    </span>
+
+                </div>
+
+                <div class="summary__row total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <span id="total">
+                        Q0
+                    </span>
+
+                </div>
+
+                <button
+                class="continue-btn"
+                id="continueBtn">
+
+                    Continuar compra
+
+                </button>
+
+            </div>
+
+           <!-- LOGIN REQUIRED -->
+
+<div
+class="login-required glass hidden"
+id="loginRequiredBox">
+
+    <h2>
+        Necesitas una cuenta
+    </h2>
+
+    <p>
+        Para continuar con la compra debes
+        iniciar sesión o crear una cuenta.
+    </p>
+
+    <div class="login-actions">
+
+        <button id="goLoginBtn">
+
+            Iniciar sesión
+
+        </button>
+
+        <button
+        id="goRegisterBtn"
+        class="register-btn">
+
+            Crear cuenta
+
+        </button>
+
+    </div>
+
+</div>
+
+            <!-- METODO PAGO -->
+
+            <div
+            class="payment-box glass hidden"
+            id="paymentBox">
+
+                <h2>
+                    Método de pago
+                </h2>
+
+                <div class="payment-selector">
+
+                    <button
+                    class="payment-option active"
+                    data-target="cardForm">
+
+                        <i class="fi fi-rr-credit-card"></i>
+
+                        Tarjeta
+
+                    </button>
+
+                    <button
+                    class="payment-option"
+                    data-target="deliveryForm">
+
+                        <i class="fi fi-rr-truck-side"></i>
+
+                        Contra entrega
+
+                    </button>
+
+                </div>
+
+                <!-- FORM TARJETA -->
+
+                <form
+                class="payment-form active-form"
+                id="cardForm">
+
+                    <input
+                    type="text"
+                    placeholder="Nombre en la tarjeta">
+
+                    <input
+                    type="text"
+                    placeholder="Número de tarjeta">
+
+                    <div class="row">
+
+                        <input
+                        type="text"
+                        placeholder="MM/AA">
+
+                        <input
+                        type="text"
+                        placeholder="CVV">
+
+                    </div>
+
+                    <button type="submit">
+
+                        Pagar ahora
+
+                    </button>
+
+                </form>
+
+                <!-- FORM ENTREGA -->
+
+                <form
+                class="payment-form"
+                id="deliveryForm">
+
+                    <input
+                    type="text"
+                    placeholder="Nombre completo">
+
+                    <input
+                    type="text"
+                    placeholder="Dirección">
+
+                    <input
+                    type="text"
+                    placeholder="Teléfono">
+
+                    <textarea
+                    placeholder="Notas adicionales"></textarea>
+
+                    <button type="submit">
+
+                        Confirmar pedido
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SCRIPTS -->
+
+    <script src="Carrito.js"></script>
+
+    <script src="Particulas.js"></script>
+
+   
+
+</body>
+</html>
